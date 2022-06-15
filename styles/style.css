@@ -1,12 +1,41 @@
 input{
     height: 40px;
     margin-top: 10px;
+    text-align: center;
+    width: 150px;
 }
 
 p{
-    margin-bottom: 30px;
+   margin-left: 12%;
 }
 
 #display{
-    margin-left: 19%;
+    margin-left: 25%;
+    height: 40px;
+    margin-top: 13px;
+    width: 100px;
+}
+
+#fahren{
+    width: 150px;
+    height: 40px;
+    border: 1px gray solid;
+    margin-top: 10px;
+    text-align: center;
+    padding: 7px;
+}
+
+label{
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 500px;
+    margin-left: 10%;
+}
+
+#middle{
+    display: flex;
 }

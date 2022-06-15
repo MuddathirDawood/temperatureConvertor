@@ -5,5 +5,5 @@ btnDisplay.addEventListener('click', ()=>{
     let num = parseInt(celcius);
     let calculate = (num * 9/5) + 32;
     console.log(calculate);
-    document.querySelector('#fahren').innerHTML = calculate;
+    document.querySelector('#fahren').innerHTML = `${calculate}∘F`;
 })
